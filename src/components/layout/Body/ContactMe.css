@@ -1,0 +1,54 @@
+.contact-me{
+    height: 100vh;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+form{
+    border: 1px solid white;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+form span{
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+form div{
+    width: 100%;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 30px; */
+}
+form div input{
+    padding: 10px;
+    width: 80%;
+    outline: none;
+    border-radius: 5px;
+}
+form div p{
+   position: relative;
+   left: -37%;
+}
+form div textarea{
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+}
+form button{
+    margin-top: 45px;
+    padding: 15px 10px;
+    width: 83%;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}

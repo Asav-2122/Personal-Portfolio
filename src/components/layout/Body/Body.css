@@ -1,8 +1,15 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .first-section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 80px 0px;
+  margin: 55px 0px;
+  height: 70vh;
 }
 .developer_name_color {
   color: rgb(177, 107, 228);
@@ -11,8 +18,9 @@
   color: rgb(177, 107, 228);
 }
 .left {
-  width: 40%;
+  width: 50%;
   font-size: 3rem;
+  /* border: 1px solid red ; */
   /* margin: 30px 0px; */
 }
 .right {
@@ -21,3 +29,59 @@
 .right img {
   width: 80%;
 }
+
+.project-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    height: 90vh;
+    gap: 25px;
+}
+.project-section h1{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.project-1{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 45%;
+}
+.project-1:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.project-description{
+    width: 50%;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+.project-btn{
+    display: flex;
+    gap: 15px;
+   
+}
+.project-btn a{
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.project-btn a:hover{
+    border: 1px solid rgb(21, 21, 54);
+    text-decoration: none;
+    color: gray;
+    padding: 10px 10px;
+}
+.project-2{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 45%;
+   flex-direction: row-reverse;
+}
+.project-2:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
