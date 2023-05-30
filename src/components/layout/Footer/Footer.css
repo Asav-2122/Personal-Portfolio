@@ -1,0 +1,40 @@
+footer{
+    height: 50vh;
+    width: 98.5vw;
+    background-color:#0e0e1a;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-container span{
+    font-size: 1.5rem;
+}
+.footer-container p{
+    font-size: 1rem;
+}
+.footer-container .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hr-row{
+    width: 90%;
+    margin-top: 70px;
+    border: none;
+    color: #333;  /* old IE */
+  background-color: #333;
+    height: 1px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom span{
+    font-size: 0.8rem;
+    margin-top: 50px;
+}

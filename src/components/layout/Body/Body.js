@@ -24,7 +24,7 @@ const Body = () => {
   }, []);
   return (
     <main>
-      <section className="first-section">
+      <section className="first-section" id="aboutme">
         <div className="left">
           Hi, My name is <span className="developer_name_color">Aasav</span>
           <div>and I am a passionate</div>
@@ -34,7 +34,7 @@ const Body = () => {
           <img src={Image} alt="developer.png" />
         </div>
       </section>
-      <section className="project-section">
+      <section className="project-section" id="project">
            <h1>Projects</h1>
            <div className="project-1">
                <div>
@@ -46,8 +46,8 @@ const Body = () => {
                   <h4>Foodish-A React App.</h4>
                   <p style={{color:"gray"}}>Foodish is a highly scalable and performent food ordering app made with react js and parcel as a bundler.It is having interactive and dynamic landing page with the lists of restaurants where user can search for a sepecific restaurant.</p>
                   <div className="project-btn">
-                    <a href="https://foodish-react-app.netlify.app/" target="_blank">Live Demo</a>
-                    <a href="https://github.com/Asav-2122/Foodish-A_React_App" target="_blank">Git Hub</a>
+                    <a href="https://foodish-react-app.netlify.app/" target="blank">Live Demo</a>
+                    <a href="https://github.com/Asav-2122/Foodish-A_React_App" target="blank">Git Hub</a>
                   </div>
                </div>
            </div>
@@ -61,8 +61,8 @@ const Body = () => {
                   <h4>YouTube-A Video Streaming Platform.</h4>
                   <p style={{color:"gray"}}>Foodish is a highly scalable and performent food ordering app made with react js and parcel as a bundler.It is having interactive and dynamic landing page with the lists of restaurants where user can search for a sepecific restaurant.</p>
                   <div className="project-btn">
-                    <a href="https://foodish-react-app.netlify.app/" target="_blank">Live Demo</a>
-                    <a href="https://github.com/Asav-2122/Foodish-A_React_App" target="_blank">Git Hub</a>
+                    <a href="https://foodish-react-app.netlify.app/" target="blank">Live Demo</a>
+                    <a href="https://github.com/Asav-2122/Foodish-A_React_App" target="blank">Git Hub</a>
                   </div>
                </div>
            </div>

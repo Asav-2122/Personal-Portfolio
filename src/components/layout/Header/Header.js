@@ -8,16 +8,16 @@ const Header = () => {
         <div className="right-section">
           <ul>
             <li>
-              <a href="/#">Home</a>
+              <a href="#aboutme">Home</a>
             </li>
             <li>
-              <a href="/#">About</a>
+              <a href="#aboutme">About</a>
             </li>
             <li>
-              <a href="/#">Projects</a>
+              <a href="#project">Projects</a>
             </li>
             <li>
-              <a href="/#">Contact Me</a>
+              <a href="#contact">Contact Me</a>
             </li>
           </ul>
         </div>
