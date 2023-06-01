@@ -1,54 +1,184 @@
-.contact-me{
+.contact-me {
+  height: 100vh;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+form {
+  border: 1px solid white;
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+form span {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+form div {
+  width: 100%;
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 30px; */
+}
+form div input {
+  padding: 10px;
+  width: 80%;
+  outline: none;
+  border-radius: 5px;
+}
+form div p {
+  position: relative;
+  left: -37%;
+}
+form div textarea {
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  outline: none;
+}
+form button {
+  margin-top: 45px;
+  padding: 15px 10px;
+  width: 83%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width:1440px){
+  .contact-me {
+    margin-top: 230px;
+  }
+  form{
+    height: 90%;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact-me {
     height: 100vh;
     width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-}
-form{
+    margin-top: 170px;
+  }
+  form {
     border: 1px solid white;
-    width: 60%;
-    height: 80%;
+    width: 65%;
+    height: 90%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
+  }
+
+  .msg {
+    margin-left: 15px;
+  }
 }
-form span{
-    font-size: 2rem;
-    letter-spacing: 1px;
-}
-form div{
-    width: 100%;
-    padding: 0px 15px;
+
+@media only screen and (max-width: 768px) {
+  .contact-me {
+    height: 100vh;
+    width: 95%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* gap: 30px; */
-}
-form div input{
-    padding: 10px;
+    margin-top: 150px;
+  }
+  form {
+    border: 1px solid white;
+    width: 65%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  form span {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+  form div input {
+    padding: 5px;
     width: 80%;
     outline: none;
     border-radius: 5px;
-}
-form div p{
-   position: relative;
-   left: -37%;
-}
-form div textarea{
-    padding: 10px;
+  }
+  form div textarea {
+    padding: 5px;
     width: 80%;
     border-radius: 5px;
     outline: none;
-}
-form button{
+  }
+  form button {
     margin-top: 45px;
-    padding: 15px 10px;
+    padding: 8px 10px;
     width: 83%;
     cursor: pointer;
     outline: none;
     border-radius: 5px;
+    border: none;
+  }
+  .msg {
+    margin-left: 30px;
+  }
 }
+
+@media only screen and (max-width: 480px) {
+  .contact-me {
+    height: 100vh;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  form {
+    border: 1px solid white;
+    width: 65%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  form span {
+    font-size: 1rem;
+    letter-spacing: 0px;
+  }
+  form div input {
+    padding: 5px;
+    width: 80%;
+    outline: none;
+    border-radius: 5px;
+  }
+  form div textarea {
+    padding: 5px;
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+  }
+  form button {
+    margin-top: 45px;
+    padding: 5px 10px;
+    width: 83%;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+  }
+  .msg {
+    margin-left: 30px;
+  }
+}
+
+
+
+

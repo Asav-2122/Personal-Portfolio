@@ -3,7 +3,7 @@ import "./ContactMe.css";
 const ContactMe = () => {
   return (
     <div className="contact-me">
-      <form id="contact"> 
+      <form id="contact">
         <span>CONTACT</span>
         <div>
           <p>Name:</p>
@@ -14,10 +14,10 @@ const ContactMe = () => {
           <input type="email" />
         </div>
         <div>
-          <p>Message:</p>
+          <p className="msg">Message:</p>
           <textarea rows={4} cols={8} />
         </div>
-        <button onClick={(e)=>e.preventDefault()}>Submit</button>
+        <button onClick={(e) => e.preventDefault()}>Submit</button>
       </form>
     </div>
   );

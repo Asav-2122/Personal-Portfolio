@@ -1,8 +1,8 @@
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .first-section {
   display: flex;
@@ -28,58 +28,320 @@ main{
   width: 80%;
 }
 
-.project-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    width: 95%;
-    height: 90vh;
-    gap: 25px;
+.project-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  height: 90vh;
+  gap: 25px;
 }
-.project-section h1{
+.project-section h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+.project-1 {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  height: 45%;
+}
+.project-1:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.project-description {
+  width: 50%;
+  margin-top: 10px;
+  /* border: 1px solid red; */
+}
+.project-btn {
+  display: flex;
+  gap: 15px;
+}
+.project-btn a {
+  border: 1px solid white;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+.project-btn a:hover {
+  border: 1px solid rgb(21, 21, 54);
+  text-decoration: none;
+  color: gray;
+  padding: 10px 10px;
+}
+.project-2 {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  height: 45%;
+  flex-direction: row-reverse;
+}
+.project-2:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+ @media only screen and (max-width:1440px){
+
+  .project-section h1 {
     font-size: 2rem;
-    letter-spacing: 2px;
-}
-.project-1{
+    letter-spacing: 4px;
+  }
+  .project-description h4 {
+    font-size: 22px;
+  }
+  .project-description p {
+    font-size: 20px;
+  }
+  .video-container video {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    bottom: 50px;
+  }
+  .project-2 {
+     margin-top: 70px;
+  }
+  .project-2 video {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: -55px;
+  }
+ }
+
+@media only screen and (max-width:1024px){
+  .first-section {
+    height: 80vh;
+    margin-bottom: 10px;
+  }
+  .left {
+    width: 50%;
+    font-size: 2.5rem;
+  }
+  .right {
+    width: 42%;
+  }
+  .right img {
+    width: 70%;
+  }
+  .project-section {
+    height: 100vh;
+    margin-top: 100px;
+    gap: 5px;
+  }
+  .project-section h1 {
+    font-size: 1.8rem;
+    letter-spacing: 4px;
+  }
+  .project-1 {
     display: flex;
     justify-content: space-around;
-    width: 90%;
-    height: 45%;
-}
-.project-1:hover{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-.project-description{
-    width: 50%;
-    margin-top: 10px;
-    /* border: 1px solid red; */
-}
-.project-btn{
+    align-items: center;
+    width: 100%;
+    height: 55%;
+  }
+  .video-container video {
+    width: 400px;
+    height: 450px;
+    margin-top: 25px;
+  }
+  .project-description {
+    width: 53%;
+    position: relative;
+    bottom: 55px;
+  }
+  .project-description h4 {
+    font-size: 20px;
+  }
+  .project-description p {
+    font-size: 18px;
+  }
+  .project-btn {
     display: flex;
     gap: 15px;
-   
-}
-.project-btn a{
+  }
+  .project-btn a {
     border: 1px solid white;
     text-decoration: none;
-    padding: 10px 10px;
-}
-.project-btn a:hover{
+    padding: 4px 4px;
+    font-size: 15px;
+  }
+  .project-btn a:hover {
     border: 1px solid rgb(21, 21, 54);
     text-decoration: none;
     color: gray;
-    padding: 10px 10px;
-}
-.project-2{
+    padding: 5px 5px;
+  }
+  .project-2 {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+    margin-top: 15px;
+  }
+  .project-2 video {
+    width: 400px;
+    height: 450px;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .first-section {
+    height: 50vh;
+    margin-bottom: 0px;
+    margin-top: 150px;
+  }
+  .left {
+    width: 50%;
+    font-size: 2rem;
+  }
+  .right {
+    width: 40%;
+  }
+  .right img {
+    width: 80%;
+  }
+  .project-section {
+    height: 100vh;
+    margin-top: 130px;
+    gap: 5px;
+  }
+  .project-section h1 {
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+  }
+  .project-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+  }
+  .video-container video {
+    width: 300px;
+    height: 450px;
+  }
+  .project-description {
+    width: 50%;
+    position: relative;
+    bottom: 40px;
+  }
+  .project-description h4 {
+    font-size: 18px;
+  }
+  .project-description p {
+    font-size: 15px;
+  }
+  .project-btn {
+    display: flex;
+    gap: 15px;
+  }
+  .project-btn a {
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 3px 3px;
+    font-size: 15px;
+  }
+  .project-btn a:hover {
+    border: 1px solid rgb(21, 21, 54);
+    text-decoration: none;
+    color: gray;
+    padding: 3px 3px;
+  }
+  .project-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+    margin-top: 15px;
+  }
+  .project-2 video {
+    width: 300px;
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .first-section {
+    height: 50vh;
+    margin-bottom: 0px;
+  }
+  .left {
+    width: 50%;
+    font-size: 1.04rem;
+  }
+  .right {
+    width: 40%;
+  }
+  .right img {
     width: 90%;
-    height: 45%;
-   flex-direction: row-reverse;
+  }
+  .project-section {
+    height: 100vh;
+    margin-top: 15px;
+    gap: 5px;
+  }
+  .project-section h1 {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+  }
+  .project-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+  }
+  .video-container video {
+    width: 100px;
+    height: 150px;
+  }
+  .project-description {
+    width: 70%;
+  }
+  .project-description h4 {
+    font-size: 15px;
+  }
+  .project-description p {
+    font-size: 12px;
+  }
+  .project-btn {
+    display: flex;
+    gap: 15px;
+  }
+  .project-btn a {
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 1px 1px;
+    font-size: 13px;
+  }
+  .project-btn a:hover {
+    border: 1px solid rgb(21, 21, 54);
+    text-decoration: none;
+    color: gray;
+    padding: 1px 1px;
+  }
+  .project-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+    margin-top: 15px;
+  }
+  .project-2 video {
+    width: 100px;
+    height: 150px;
+  }
 }
-.project-2:hover{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
+
 
 

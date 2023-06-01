@@ -29,3 +29,9 @@ nav {
   font-size: 1.02rem;
   cursor: pointer;
 }
+
+@media only screen and (max-width:480px) {
+      nav{
+        display: none;
+      }
+}
