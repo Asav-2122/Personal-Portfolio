@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
+import hamburger from "../../../Assets/images/hamburger.png";
 const Header = () => {
+  const [isNavbarOpen, setIsNavbarOpen] = useState(false);
   return (
     <div>
       <nav>
@@ -22,6 +24,17 @@ const Header = () => {
           </ul>
         </div>
       </nav>
+      <div className="ham-burger">
+        <span>Aasav's Portfolio</span>
+        <img src={hamburger} onClick={() => setIsNavbarOpen(!isNavbarOpen)} />
+      </div>
+      {isNavbarOpen &&
+       <div className="mobile-navbar">
+            <a href="#aboutme">Home</a>
+            <a href="#aboutme">About</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+      </div>}
     </div>
   );
 };

@@ -42,13 +42,17 @@ footer {
 @media only screen and (max-width:1440px){
    footer{
     width: 98vw;
+    position: relative;
+    bottom: 0%;
    }
-}
-
-@media only screen and (max-width:1440px){
-   footer{
-      width: 100vw;
-   }
+   .hr-row {
+    width: 90%;
+    margin-top: 40px;
+    border: none;
+    color: #333; 
+    background-color: #333;
+    height: 1px;
+  }
 }
 
 @media only screen and (max-width:1024px){
