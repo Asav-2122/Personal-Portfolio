@@ -39,7 +39,7 @@ const Body = () => {
         <h1>Projects</h1>
         <div className="project-1">
           <div className="video-container">
-            <video autoPlay height="280" width="350">
+            <video autoPlay loop  height="280" width="350">
               <source src={foodis_video}></source>
             </video>
           </div>
@@ -66,7 +66,7 @@ const Body = () => {
         </div>
         <div className="project-2">
           <div>
-            <video autoPlay height="280" width="350">
+            <video autoPlay loop height="280" width="350">
               <source src={youtube}></source>
             </video>
           </div>

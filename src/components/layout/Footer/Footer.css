@@ -106,7 +106,7 @@ footer {
 
 @media only screen and (max-width: 480px) {
   footer {
-    height: 50vh;
+    height: 40vh;
     width: 99.3vw;
     background-color: #0e0e1a;
     position: relative;
