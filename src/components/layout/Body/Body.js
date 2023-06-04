@@ -1,7 +1,7 @@
 import React from "react";
 import "./Body.css";
 import foodis_video from "../../../Assets/videos/foodish_app.mp4";
-import youtube from "../../../Assets/videos/YouTube.webm";
+import youtube from "../../../Assets/videos/YouTube.mp4";
 import Typed from "typed.js";
 import Image from "../../../Assets/images/developer_Img.png";
 const Body = () => {
@@ -10,7 +10,7 @@ const Body = () => {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "<i>Web</i> Developer",
+        "<i>Web</i> Developer", 
         " React Js Developer",
         "Javascript Developer",
         "Front-End Developer.",
