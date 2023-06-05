@@ -26,7 +26,7 @@ const Header = () => {
       </nav>
       <div className="ham-burger">
         <span>Aasav's Portfolio</span>
-        <img src={hamburger} onClick={() => setIsNavbarOpen(!isNavbarOpen)} />
+        <img src={hamburger} onClick={() => setIsNavbarOpen(!isNavbarOpen)} alt="hamburger"/>
       </div>
       {isNavbarOpen &&
        <div className="mobile-navbar">

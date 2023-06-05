@@ -5,6 +5,10 @@
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  flex-direction: column;
+}
+.contact-me span{
+  margin-bottom: 10px;
 }
 form {
   border: 1px solid white;
@@ -57,9 +61,20 @@ form button {
   .contact-me {
     margin-top: 230px;
   }
+  .contact-me span{
+    font-size: 25px;
+  }
   form{
-    height: 90%;
-    width: 50%;
+    height: 80%;
+    width: 45%;
+  }
+  form button {
+    margin-top: 30px;
+    padding: 15px 10px;
+    width: 83%;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
   }
 }
 
@@ -71,14 +86,26 @@ form button {
     justify-content: center;
     align-items: center;
     margin-top: 170px;
+    margin-bottom: 50px;
+  }
+  .contact-me span{
+    font-size: 22px;
   }
   form {
     border: 1px solid white;
     width: 65%;
-    height: 90%;
+    height: 86%;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  form button {
+    margin-top: 30px;
+    padding: 15px 10px;
+    width: 83%;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
   }
 
   .msg {
@@ -94,11 +121,14 @@ form button {
     justify-content: center;
     align-items: center;
     margin-top: 150px;
+    margin-bottom: 30px;
+    flex-direction: column;
   }
+
   form {
     border: 1px solid white;
     width: 65%;
-    height: 90%;
+    height: 85%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,7 +150,7 @@ form button {
     outline: none;
   }
   form button {
-    margin-top: 45px;
+    margin-top: 37px;
     padding: 8px 10px;
     width: 83%;
     cursor: pointer;
@@ -140,12 +170,16 @@ form button {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-top: 80px;
+  }
+  .contact-me span{
+    margin-bottom: 10px;
   }
   form {
     border: 1px solid white;
     width: 65%;
-    height: 75%;
+    height: 85%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,7 +201,7 @@ form button {
     outline: none;
   }
   form button {
-    margin-top: 45px;
+    margin-top: 35px;
     padding: 5px 10px;
     width: 83%;
     cursor: pointer;
